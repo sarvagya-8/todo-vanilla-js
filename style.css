@@ -1,0 +1,102 @@
+html {
+    height: 100%;
+    background-image: linear-gradient(#61dfff, #ff768c);
+    background-repeat: no-repeat;
+    font-family: 'Grenze', serif;
+    color: #289de0;
+    background-size: auto;
+}
+
+.main {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+    font-family: 'Lobster', cursive;
+    padding-bottom: 2rem;
+    color: rosybrown;
+    /* font-family: 'Dancing Script', cursive; */
+    font-size: 3rem;
+}
+
+form {
+    background-color: #fff;
+    padding: 15px;
+}
+
+input[type="text"] {
+    width: 310px;
+    height: 30px;
+    outline: 0;
+    border: none;
+    font-size: 1.5em;
+    background: #fff;
+    color: #2f4f4f;
+}
+
+button {
+    font-family: "Android Euclid", Helvetica, Arial, sans-serif;
+    font-size: 1.5em;
+    color: #ff768c;
+    background-color: #fff;
+    outline: 0;
+    border: none;
+    width: 50px;
+    /* font-weight: bold; */
+}
+
+.tasksBoard {
+    background-color: #fff;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+    display: none;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    border-bottom: 1px solid rgba(255, 83, 106, 0.308);
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-size: 1.3em;
+    color: #2f4f4f;
+}
+
+a {
+    float: right;
+    text-align: right;
+    color: #ff768c;
+    font-size: 1.2em;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.delete {
+    background-color: #bd2d2d;
+    padding: 0px 3px 0px 3px;
+    color: #fff;
+    cursor: pointer;
+}
+
+@media (max-width: 500px) {
+    .main {
+        margin: auto;
+        width: 100%;
+    }
+    input[type="text"] {
+        width: 80%;
+    }
+    button {
+        width: 10%;
+    }
+}
